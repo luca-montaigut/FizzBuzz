@@ -14,8 +14,10 @@ Suite à la découverte sur un blog de cet exercice des plus classiques de la pr
 
 ## Installation
 
-`git clone `
-`cd `
+`git clone git@github.com:luca-montaigut/FizzBuzz.git`
+
+`cd FizzBuzz`
+
 `ruby fizzbuzz.rb`
 
 ## Problèmes connus
