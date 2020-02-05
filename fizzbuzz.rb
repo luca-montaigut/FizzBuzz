@@ -46,7 +46,10 @@ def perform
   if number <= 0
     easteregg
   else
-    number.times {|x| puts fizzbuzz(x+1)}
+    number.times do |x| 
+      puts fizzbuzz(x+1)
+      sleep(0.1)
+    end
   puts "\n *********************************************************************"
   puts "                             Au revoir !                             "
   puts " *********************************************************************\n\n"
